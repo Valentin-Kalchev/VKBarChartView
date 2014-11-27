@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D870F70E-74B2-449B-8C4A-A81712499C49</string>
+	<key>IDESourceControlProjectName</key>
+	<string>VKBarChartViewSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E8EC78E281322E39E19BB3A76880DE996303D355</key>
+		<string>github.com:Valentin-Kalchev/VKBarChartView.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>VKBarChartViewSample.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E8EC78E281322E39E19BB3A76880DE996303D355</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:Valentin-Kalchev/VKBarChartView.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E8EC78E281322E39E19BB3A76880DE996303D355</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E8EC78E281322E39E19BB3A76880DE996303D355</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VKBarChartView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

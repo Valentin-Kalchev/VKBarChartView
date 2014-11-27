@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDE03D861A269B0C007E7086 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03D851A269B0C007E7086 /* main.m */; };
+		BDE03D891A269B0C007E7086 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03D881A269B0C007E7086 /* AppDelegate.m */; };
+		BDE03D8C1A269B0C007E7086 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03D8B1A269B0C007E7086 /* ViewController.m */; };
+		BDE03D8F1A269B0C007E7086 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDE03D8D1A269B0C007E7086 /* Main.storyboard */; };
+		BDE03D911A269B0C007E7086 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDE03D901A269B0C007E7086 /* Images.xcassets */; };
+		BDE03D941A269B0C007E7086 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE03D921A269B0C007E7086 /* LaunchScreen.xib */; };
+		BDE03DA01A269B0C007E7086 /* VKBarChartViewSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03D9F1A269B0C007E7086 /* VKBarChartViewSampleTests.m */; };
+		BDE03DAC1A269B21007E7086 /* VKBarChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03DAA1A269B21007E7086 /* VKBarChartView.m */; };
+		BDE03DAD1A269B21007E7086 /* VKBarChartView.xib in Resources */ = {isa = PBXBuildFile; fileRef = BDE03DAB1A269B21007E7086 /* VKBarChartView.xib */; };
+		BDE03DB21A269F05007E7086 /* UIColor+ExtraColours.m in Sources */ = {isa = PBXBuildFile; fileRef = BDE03DB11A269F05007E7086 /* UIColor+ExtraColours.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDE03D9A1A269B0C007E7086 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDE03D781A269B0C007E7086 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDE03D7F1A269B0C007E7086;
+			remoteInfo = VKBarChartViewSample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDE03D801A269B0C007E7086 /* VKBarChartViewSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VKBarChartViewSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE03D841A269B0C007E7086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE03D851A269B0C007E7086 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BDE03D871A269B0C007E7086 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BDE03D881A269B0C007E7086 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BDE03D8A1A269B0C007E7086 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BDE03D8B1A269B0C007E7086 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BDE03D8E1A269B0C007E7086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDE03D901A269B0C007E7086 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BDE03D931A269B0C007E7086 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BDE03D991A269B0C007E7086 /* VKBarChartViewSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VKBarChartViewSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDE03D9E1A269B0C007E7086 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE03D9F1A269B0C007E7086 /* VKBarChartViewSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VKBarChartViewSampleTests.m; sourceTree = "<group>"; };
+		BDE03DA91A269B21007E7086 /* VKBarChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VKBarChartView.h; sourceTree = "<group>"; };
+		BDE03DAA1A269B21007E7086 /* VKBarChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VKBarChartView.m; sourceTree = "<group>"; };
+		BDE03DAB1A269B21007E7086 /* VKBarChartView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VKBarChartView.xib; sourceTree = "<group>"; };
+		BDE03DB01A269F05007E7086 /* UIColor+ExtraColours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+ExtraColours.h"; sourceTree = "<group>"; };
+		BDE03DB11A269F05007E7086 /* UIColor+ExtraColours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+ExtraColours.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDE03D7D1A269B0C007E7086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE03D961A269B0C007E7086 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDE03D771A269B0C007E7086 = {
+			isa = PBXGroup;
+			children = (
+				BDE03D821A269B0C007E7086 /* VKBarChartViewSample */,
+				BDE03D9C1A269B0C007E7086 /* VKBarChartViewSampleTests */,
+				BDE03D811A269B0C007E7086 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDE03D811A269B0C007E7086 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03D801A269B0C007E7086 /* VKBarChartViewSample.app */,
+				BDE03D991A269B0C007E7086 /* VKBarChartViewSampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDE03D821A269B0C007E7086 /* VKBarChartViewSample */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03D871A269B0C007E7086 /* AppDelegate.h */,
+				BDE03D881A269B0C007E7086 /* AppDelegate.m */,
+				BDE03D8A1A269B0C007E7086 /* ViewController.h */,
+				BDE03D8B1A269B0C007E7086 /* ViewController.m */,
+				BDE03DB01A269F05007E7086 /* UIColor+ExtraColours.h */,
+				BDE03DB11A269F05007E7086 /* UIColor+ExtraColours.m */,
+				BDE03DAE1A269B26007E7086 /* VKBarChart */,
+				BDE03D8D1A269B0C007E7086 /* Main.storyboard */,
+				BDE03D901A269B0C007E7086 /* Images.xcassets */,
+				BDE03D921A269B0C007E7086 /* LaunchScreen.xib */,
+				BDE03D831A269B0C007E7086 /* Supporting Files */,
+			);
+			path = VKBarChartViewSample;
+			sourceTree = "<group>";
+		};
+		BDE03D831A269B0C007E7086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03D841A269B0C007E7086 /* Info.plist */,
+				BDE03D851A269B0C007E7086 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDE03D9C1A269B0C007E7086 /* VKBarChartViewSampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03D9F1A269B0C007E7086 /* VKBarChartViewSampleTests.m */,
+				BDE03D9D1A269B0C007E7086 /* Supporting Files */,
+			);
+			path = VKBarChartViewSampleTests;
+			sourceTree = "<group>";
+		};
+		BDE03D9D1A269B0C007E7086 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03D9E1A269B0C007E7086 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BDE03DAE1A269B26007E7086 /* VKBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				BDE03DA91A269B21007E7086 /* VKBarChartView.h */,
+				BDE03DAA1A269B21007E7086 /* VKBarChartView.m */,
+				BDE03DAB1A269B21007E7086 /* VKBarChartView.xib */,
+			);
+			name = VKBarChart;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDE03D7F1A269B0C007E7086 /* VKBarChartViewSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE03DA31A269B0C007E7086 /* Build configuration list for PBXNativeTarget "VKBarChartViewSample" */;
+			buildPhases = (
+				BDE03D7C1A269B0C007E7086 /* Sources */,
+				BDE03D7D1A269B0C007E7086 /* Frameworks */,
+				BDE03D7E1A269B0C007E7086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VKBarChartViewSample;
+			productName = VKBarChartViewSample;
+			productReference = BDE03D801A269B0C007E7086 /* VKBarChartViewSample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDE03D981A269B0C007E7086 /* VKBarChartViewSampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDE03DA61A269B0C007E7086 /* Build configuration list for PBXNativeTarget "VKBarChartViewSampleTests" */;
+			buildPhases = (
+				BDE03D951A269B0C007E7086 /* Sources */,
+				BDE03D961A269B0C007E7086 /* Frameworks */,
+				BDE03D971A269B0C007E7086 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDE03D9B1A269B0C007E7086 /* PBXTargetDependency */,
+			);
+			name = VKBarChartViewSampleTests;
+			productName = VKBarChartViewSampleTests;
+			productReference = BDE03D991A269B0C007E7086 /* VKBarChartViewSampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDE03D781A269B0C007E7086 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Valentin Kalchev";
+				TargetAttributes = {
+					BDE03D7F1A269B0C007E7086 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					BDE03D981A269B0C007E7086 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = BDE03D7F1A269B0C007E7086;
+					};
+				};
+			};
+			buildConfigurationList = BDE03D7B1A269B0C007E7086 /* Build configuration list for PBXProject "VKBarChartViewSample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDE03D771A269B0C007E7086;
+			productRefGroup = BDE03D811A269B0C007E7086 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDE03D7F1A269B0C007E7086 /* VKBarChartViewSample */,
+				BDE03D981A269B0C007E7086 /* VKBarChartViewSampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDE03D7E1A269B0C007E7086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE03D8F1A269B0C007E7086 /* Main.storyboard in Resources */,
+				BDE03D941A269B0C007E7086 /* LaunchScreen.xib in Resources */,
+				BDE03DAD1A269B21007E7086 /* VKBarChartView.xib in Resources */,
+				BDE03D911A269B0C007E7086 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE03D971A269B0C007E7086 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDE03D7C1A269B0C007E7086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE03D8C1A269B0C007E7086 /* ViewController.m in Sources */,
+				BDE03DB21A269F05007E7086 /* UIColor+ExtraColours.m in Sources */,
+				BDE03D891A269B0C007E7086 /* AppDelegate.m in Sources */,
+				BDE03DAC1A269B21007E7086 /* VKBarChartView.m in Sources */,
+				BDE03D861A269B0C007E7086 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDE03D951A269B0C007E7086 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDE03DA01A269B0C007E7086 /* VKBarChartViewSampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDE03D9B1A269B0C007E7086 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDE03D7F1A269B0C007E7086 /* VKBarChartViewSample */;
+			targetProxy = BDE03D9A1A269B0C007E7086 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDE03D8D1A269B0C007E7086 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE03D8E1A269B0C007E7086 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDE03D921A269B0C007E7086 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDE03D931A269B0C007E7086 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDE03DA11A269B0C007E7086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDE03DA21A269B0C007E7086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDE03DA41A269B0C007E7086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKBarChartViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BDE03DA51A269B0C007E7086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VKBarChartViewSample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BDE03DA71A269B0C007E7086 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKBarChartViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKBarChartViewSample.app/VKBarChartViewSample";
+			};
+			name = Debug;
+		};
+		BDE03DA81A269B0C007E7086 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = VKBarChartViewSampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VKBarChartViewSample.app/VKBarChartViewSample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDE03D7B1A269B0C007E7086 /* Build configuration list for PBXProject "VKBarChartViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE03DA11A269B0C007E7086 /* Debug */,
+				BDE03DA21A269B0C007E7086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE03DA31A269B0C007E7086 /* Build configuration list for PBXNativeTarget "VKBarChartViewSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE03DA41A269B0C007E7086 /* Debug */,
+				BDE03DA51A269B0C007E7086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDE03DA61A269B0C007E7086 /* Build configuration list for PBXNativeTarget "VKBarChartViewSampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE03DA71A269B0C007E7086 /* Debug */,
+				BDE03DA81A269B0C007E7086 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDE03D781A269B0C007E7086 /* Project object */;
+}
