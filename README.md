@@ -16,4 +16,3 @@ Drag &amp; drop custom UIView bar chart with animating bars.
 
 - (void)createBarsWithTitles:(NSArray *)titles withBarsColors:(NSArray *)colors withBarsValues:(NSArray *)values;
 ```
-class
